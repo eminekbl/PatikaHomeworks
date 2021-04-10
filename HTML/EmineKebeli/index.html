@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patika - Emine Kebeli</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- img dosyalarinin genişlik ve yüksekliğini ayarlamak için style bilgisi eklendi -->
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <!-- Bootstrap Kullanmak için gerekli cdn ve css kodları -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!-- contaıner başlangıç -->
+    <main class="container">
+        <header>
+            <h1 class="text-center"> <strong>Emine Kebeli</strong> </h1>
+        </header>
+        <!-- hgakkimda satır başlagıcı -->
+        <div class="row">
+            <!-- 1.kolon başlangıcı -->
+            <figure class="col-sm-3">
+                <img src="./pp.jpg" alt="profile picture">
+            </figure>
+            <!-- 1.kolon bitişi -->
+
+            <!-- 2.kolon başlangıcı -->
+            <article class="col-sm-9 ">
+                <!-- bölümleri ayırmak için hr ile yatay çizgi eklendi -->
+                <hr>
+                <h2>Hakkımda</h2>
+                <br>
+                <p>
+                    Merhabalar! <br>
+                    Ben Emine Kebeli. Aydın'da yaşıyorum. 2017 yılında Biyomedikal Mühendisliğinden mezun oldum.
+                    Üniversitenin ikinci senesinde C++ dersleri aldım. İlk derste ekrandaki 'Hello World' yazısını
+                    gördüğümden beri yazılıma ilgim hiç bitmedi. Kodluyoruz sayesinde bu yolda büyük bir adım attım ve
+                    78.Adana Full Stack Bootcampınden mezun oldum. Asla öğrenmeye ara verme niyetinde değilim. Şu an
+                    temel bilgilerimi unutmamak, sağlamlaştırmak adına pratik yapmaya devam ediyorum.
+                </p>
+            </article>
+            <!-- 2.kolon bitişi -->
+
+        </div>
+        <!-- hakkimda satiri bitişi -->
+        <center>
+            <h2>İlgi alanlarım</h2>
+        </center>
+        <!-- fotograf satiri baslangic-->
+        <section class="row">
+            <br>
+            <p>
+                Yazılıma olduğu kadar fotoğraflara ve çizimlere de ilgim var. Adobe Photoshop ile fotoğraf
+                editlemeyi ve dijital çizimler yapmayı seviyorum. <br>
+                <strong>Üzerinde çalıştığım bazı fotoğraflar:</strong>
+            </p>
+
+            <div class="col-sm-4 ">
+                <img src="./city.jpg" alt="city">
+            </div>
+
+            <div class="col-sm-4">
+                <img src="./tree.jpg" alt="tree">
+            </div>
+
+            <div class="col-sm-4">
+                <img src="./profesor.jpg" alt="elprofesor">
+            </div>
+        </section>
+        <br>
+        <!-- fotrograf satiri bitis -->
+
+        <!-- ilgi alanlarim baslangic -->
+        <section class="row">
+
+            <div class="col-sm-6">
+                <ol>
+                    <li> Film
+                        <ul>
+                            <li>Spirited Away – Ruhların Kaçışı </li>
+                            <li>The Shawshank Redemption – Esaretin Bedeli </li>
+                            <li> <a href="#film">Ateşböceklerinin Mezarı (火垂るの墓 Hotaru no Haka)</a> </li>
+                        </ul>
+                    </li>
+                    <li> Dizi
+                        <ul>
+                            <li>Death Note</li>
+                            <li>Black Mirror</li>
+                            <li>Breaking Bad</li>
+                        </ul>
+                    </li>
+                    <li> Kitap
+                        <ul>
+                            <li>1984 - George Orwell</li>
+                            <li>Bin Muhteşem Güneş - Khaled Hosseini</li>
+                            <li> <a href="#kitap">Yabancı - Albert Camus</a> </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Film Detay -->
+        <article class="row ">
+            <h4 id="film"><strong>Ateşböceklerinin Mezarı (火垂るの墓 Hotaru no Haka)</strong></h4>
+            <figure class="col-sm-4">
+                <img class="img-responsive"
+                    src="https://m.media-amazon.com/images/M/MV5BMDg3ZmYwZjYtM2Q0OC00ZWU5LTkwZjktNTVlZWU5NTA1NThjXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_FMjpg_UX600_.jpg"
+                    alt="">
+            </figure>
+            <aside class="col-sm-8">
+                <h4>Filmin Konusu</h4>
+                <p>2. Dünya Savaşı devam etmektedir. 14 yaşındaki Seita ve 4 yaşındaki kız kardeşi Setsuko, babaları
+                    donanmayla birlikte savaşa gittiği için anneleri ile birlikte yaşamaktadırlar. Bir Amerikan hava
+                    saldırısı sırasında anneleri ölür ve teyzeleri tarafından evlat edinilirler. Teyzelerinin evinde
+                    gördükleri muameleden rahatsız olan kardeşler, kendi başlarına yaşam savaşı vermeye başlarlar. Bu
+                    süreçte açlık, önyargı ve kendi gururları ile mücadele eden kardeşler kendi savaşlarını verecektir..
+                </p>
+                <a href="https://www.imdb.com/title/tt0095327/">Daha fazla bilgi için tıklayın</a>
+            </aside>
+        </article>
+        <br>
+        <!-- Kitap Detay -->
+        <article class="row ">
+            <h4 id="kitap"><strong>Yabancı</strong></h4>
+            <figure class="col-sm-4">
+                <img class="img-responsive"
+                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590930002l/49552._SY475_.jpg"
+                    alt="">
+            </figure>
+            <section class="col-sm-8">
+                <h4>Albert Camus</h4>
+                <p>Albert Camus'nün (1913-1960) en tanınmış, en çok yabancı dile çevrilmiş, en çok incelenmiş ve hala en
+                    çok satan kitaplar arasında yer alan Yabancı, aynı zamanda yazarın en gizemli yapıtı. Ölümün egemen
+                    olduğu bir varlıkın en anlamsız olgularını saçma bir düzensizlik içinde yaşayan bu romanın başkişisi
+                    Meursault, bir simge kahraman değildir, adı olmayan bir Yabancıdır; bu eksik kimlik, gerçeklikten
+                    algıladığı şeyi yapılandıramayan, yeniden örgütleyemeyen, ama gerçekliğin yankılarını yakalamaya
+                    çalışan bir boş bilincin imgesidir. Onun kayıtsızlığı ve edilgenliği, işte bu boş bilincin ürünüdür.
+                    Yabancı, büyüleyici gücünü, içinde barındırdığı trajedi duygusuna borçlu: Bir türlü ele
+                    geçirilemeyen anlamın sürekli aranması, bilinç ile toplumsal dünya arasındaki çatışma... Camus'yle
+                    buluşanların hiçbiri, onunla karşılaşınca hayal kırıklığına uğramamıştır. Mutluluk, bir yerde ve her
+                    yerde hiçbir şey beklemeden dünyayı, insanları sevmektir, der Camus. Giderek daha çok sevilen bir
+                    yazar olması, onun bu sevgisinin yansımasından başka bir şey değildir.
+
+                    Albert Camus Cezayir doğumludur. Yoksul bir işçi olan babası I. Dünya savaşı sırasında ölünce,
+                    İspanyol asıllı olan annesi çocuklarına bakmak için ev işlerinde çalışmak durumunda kalmış, Camus,
+                    küçük bir evde, erkek kardeşi, anneannesi ve felçli dayısı ile geçirmiş çocukluğunu. Eğitimi ve
+                    dolayısıyla felsefeci/yazar kişiliği, bu yoksulluk içerisinde tamamıyla rastlantısaldır.
+                </p>
+                <a href="https://www.goodreads.com/book/show/49552.The_Stranger">Daha fazla bilgi için tıklayın</a>
+            </section>
+
+        </article>
+        <!-- ilgi alanlarim bitis -->
+    </main>
+    <!-- container bitiş -->
+
+</body>
+
+</html>

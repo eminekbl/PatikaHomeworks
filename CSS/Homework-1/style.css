@@ -1,0 +1,72 @@
+* {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+p {
+  font-size: medium;
+}
+.navbar,
+h1,
+h2,
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+ol,
+ul {
+  display: inline-block;
+  list-style-position: inside;
+}
+ul li {
+  font-size: larger;
+  list-style-type: circle;
+  text-align: start;
+  color: #2b2e4a;
+  font-weight: bold;
+}
+ol li {
+  color: rgb(17, 17, 53);
+  font-weight: bold;
+  font-size: large;
+}
+ol img {
+  height: 20rem;
+  object-fit: cover;
+  margin-top: 5rem;
+}
+ol img:hover {
+  max-height: 40rem;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+ol img:hover + li {
+  color: #961b1b;
+  text-decoration: solid;
+  font-size: xx-large;
+  background-color: #2b2e4a2d;
+  border-radius: 5rem;
+  padding-inline: 2rem;
+}
+ol img:hover + li span {
+  color: #a31136;
+  text-decoration: underline;
+  background-color: rgba(16, 219, 26, 0.562);
+  padding-inline: 2rem;
+  border-radius: 5rem;
+}
+header h1 {
+  color: #7e0336;
+  text-shadow: -4px 3px 0 #7e033686, -10px 7px 0 #0a0e2731;
+}
+section h2,
+article h2 {
+  font-weight: bolder;
+  color: #2b2e4a;
+}
+article h4 {
+  font-weight: bolder;
+  color: #7e0336;
+  margin-top: 5rem;
+}
