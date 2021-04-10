@@ -10,8 +10,18 @@
     <!-- img dosyalarinin genişlik ve yüksekliğini ayarlamak için style bilgisi eklendi -->
     <style>
         img {
-            width: 100%;
-            height: 100%;
+            height: 300px;
+            position: relative;
+        }
+
+        section img:hover {
+            width: 140%;
+            height: 140%;
+            z-index: 100;
+            display: block;
+
+
+
         }
     </style>
 
@@ -49,10 +59,9 @@
                 <p>
                     Merhabalar! <br>
                     Ben Emine Kebeli. Aydın'da yaşıyorum. 2017 yılında Biyomedikal Mühendisliğinden mezun oldum.
-                    Üniversitenin ikinci senesinde C++ dersleri aldım. İlk derste ekrandaki 'Hello World' yazısını
-                    gördüğümden beri yazılıma ilgim hiç bitmedi. Kodluyoruz sayesinde bu yolda büyük bir adım attım ve
-                    78.Adana Full Stack Bootcampınden mezun oldum. Asla öğrenmeye ara verme niyetinde değilim. Şu an
-                    temel bilgilerimi unutmamak, sağlamlaştırmak adına pratik yapmaya devam ediyorum.
+                    Yazılım alanında kendimi geliştirmeye çalışıyorum. Kodluyoruz sayesinde bu yolda büyük bir adım
+                    attım ve 78.Adana Full Stack Bootcampınden mezun oldum. Edindiğim temel bilgileri unutmamak,
+                    sağlamlaştırmak adına pratik yapmaya devam ediyorum.
                 </p>
             </article>
             <!-- 2.kolon bitişi -->
@@ -63,7 +72,7 @@
             <h2>İlgi alanlarım</h2>
         </center>
         <!-- fotograf satiri baslangic-->
-        <section class="row">
+        <section class="row justify-content-center d-flex">
             <br>
             <p>
                 Yazılıma olduğu kadar fotoğraflara ve çizimlere de ilgim var. Adobe Photoshop ile fotoğraf
@@ -71,7 +80,7 @@
                 <strong>Üzerinde çalıştığım bazı fotoğraflar:</strong>
             </p>
 
-            <div class="col-sm-4 ">
+            <div class=" col-sm-4">
                 <img src="./city.jpg" alt="city">
             </div>
 
@@ -82,6 +91,8 @@
             <div class="col-sm-4">
                 <img src="./profesor.jpg" alt="elprofesor">
             </div>
+
+
         </section>
         <br>
         <!-- fotrograf satiri bitis -->
