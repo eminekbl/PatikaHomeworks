@@ -10,6 +10,7 @@ function showTime() {
     let min = date.getMinutes()
     let sec = date.getSeconds()
     hour < 10 ? hour = "0" + hour : ""
+    min < 10 ? min = "0" + min : ""
     sec < 10 ? sec = "0" + sec : ""
     switch (day) {
         case 1:
