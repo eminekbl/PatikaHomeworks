@@ -1,0 +1,56 @@
+.jumbotron {
+  background-color: #e9ecef;
+}
+.urunler .card {
+  height: auto;
+  border-width: 10px;
+  border-color: rgba(0, 0, 0, 0.295);
+  border-radius: 1rem;
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.urunler .card img {
+  height: 20rem;
+  object-fit: contain;
+}
+.urunler .card:hover {
+  transform: scale(1.1);
+}
+.urunler .card:hover p {
+  color: #961b1b;
+  font-weight: bold;
+}
+.urunler .card:hover span {
+  border-radius: 3rem;
+  padding-inline: 1rem;
+  background-color: rgb(255, 238, 144);
+  color: #2cac0c;
+  font-weight: bold;
+}
+.navbar-brand {
+  color: #e7a9ff !important;
+  text-shadow: -4px 3px 0 #00000086, -10px 7px 0 #0a0e2731;
+}
+
+.navbar :hover,
+.active > .nav-link {
+  color: #a9e4ff !important;
+  text-shadow: -4px 3px 0 #00000086, -10px 7px 0 #0a0e2731;
+}
+h2 {
+  color: #285c75;
+}
+.card-text {
+  text-align: center;
+}
+
+ul li::marker {
+  color: brown;
+}
+ul {
+  display: inline;
+  list-style-position: inside;
+}
+.card h4 {
+  color: #10477a;
+}
