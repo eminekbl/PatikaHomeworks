@@ -1,0 +1,18 @@
+.input {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  padding: 40px 0;
+  width: 100%;
+}
+.btn-ekle {
+  background-color: rgb(61, 73, 139);
+  color: white;
+}
+.btn-ekle:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+input {
+  width: 70% !important;
+  /* display: inline-block; */
+}
