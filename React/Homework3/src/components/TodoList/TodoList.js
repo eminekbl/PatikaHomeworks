@@ -10,7 +10,7 @@ function TodoList(props) {
       <ul>
         {props.todos.map((todo, index) => {
           return (
-            <li id={index}>
+            <li key={index}>
               <TodoItem {...todo} key={todo.id} deleteItem={props.deleteItem} checked={props.checked} check={todo.check} />
             </li>
           );

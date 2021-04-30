@@ -65,26 +65,23 @@ class App extends Component {
     });
   };
   checked = (id) => {
-    this.setState((prevState) => ({
-      todos: prevState.todos.map((item, index) => {
-        if (item.id === id) {
-          prevState.todos[index].check = !item.check;
-          if (item.check) {
-            this.setState({ count: this.state.count + 1 });
-          } else {
-            this.setState({ count: this.state.count - 1 });
-          }
+    //gelen id ye sahip notu bulmak içim map kullanıldı
+    this.state.todos.map((item, index) => {
+      if (item.id === id) {
+        this.setState((prevState) => {
+          prevState.todos[index].check = !item.check; //Check değeri true ise false, false ise true yapar
+          return { todos: prevState.todos }
+        })
+        if (item.check) {
+          this.setState({ count: this.state.count - 1 }); // yapilmadi olarak işaretlendiyse sayacı azalt 
+        } else {
+          this.setState({ count: this.state.count + 1 }); //yapıldı olarak işaretlendiyse sayacı arttır
         }
-        return prevState.todos[index];
-      }),
-    }));
+      }
+    })
+
   };
-  get checked() {
-    return this._checked;
-  }
-  set checked(value) {
-    this._checked = value;
-  }
+
   render() {
     return (
       <div className="App">
@@ -109,7 +106,7 @@ class App extends Component {
         <h4 className="counter">
           {" "}
           {this.state.todos.length === this.state.count &&
-          this.state.todos.length > 0
+            this.state.todos.length > 0
             ? `Bütün işler bitmiş görünüyor :)`
             : ""}
         </h4>
