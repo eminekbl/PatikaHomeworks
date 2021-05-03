@@ -1,0 +1,22 @@
+.cheese {
+  height: 10px;
+  background-color: #fdde03;
+  border-radius: 10%;
+  box-shadow: inset 2px 2px 5px #f7e980;
+}
+
+.meat {
+  height: 20px;
+  /* background: #98503b; */
+  border-radius: 5px;
+  background: radial-gradient(#c24d44, #5c1a11);
+}
+
+.salad {
+  height: 15px;
+  background: #04aa5a;
+  border-radius: 10px;
+  border-left: 1px;
+  border-right: 1px;
+  box-shadow: inset 2px 2px 5px rgb(153, 255, 162);
+}
